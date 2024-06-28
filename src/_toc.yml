@@ -1,0 +1,21 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Preface
+    chapters:
+      - file: intro
+      - file: environment-setup
+  - caption: Contents
+    chapters:
+      - file: dataset-curation
+      - file: chgnet-embedding
+      - file: dimensionality-reduction
+      - file: clustering
+      - file: manipulating
+      - file: conclusions
+  - caption: References
+    chapters:
+      - file: references
